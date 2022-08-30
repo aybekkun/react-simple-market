@@ -1,0 +1,33 @@
+footer{
+    padding: 20px 0;
+    border-top: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    .footer__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer__links>a{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .footer__list{
+        list-style: none;
+        display: flex;
+        li{
+            width: 30px;
+            height: 30px;
+        }
+        li+li{
+            margin-left: 5px;
+        }
+        a{
+        display: block;
+        }
+    }
+
+}

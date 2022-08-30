@@ -1,0 +1,11 @@
+header{
+    padding: 20px 0;
+    border-bottom: 1px solid #EAEAEA;
+
+    .header__logo{
+        display: flex;
+        img{
+            margin-right: 5px;
+        }
+    }
+}
